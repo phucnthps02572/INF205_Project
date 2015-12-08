@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hinh_3"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="fpoly.android.quanlysinhvien.SearchClass" >
+
+    <AutoCompleteTextView
+        android:id="@+id/edtTimkiem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:completionThreshold="1"
+        android:hint="Nhập tên lớp cần tìm"
+        android:textSize="17sp" 
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/bntTimkiem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tìm kiếm"
+        android:onClick="Timkiem_lop"
+        android:background="#3CB371"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp" />    
+    
+    <ListView
+        android:id="@+id/lvKetqua"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#aaffd4" >
+    </ListView>
+    
+</LinearLayout>
+<!-- From: file:/D:/QuanLySinhVien/app/src/main/res/layout/activity_search_class.xml -->

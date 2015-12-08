@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinh_3"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="fpoly.android.quanlysinhvien.StudentManagement" >
+
+    <TextView
+        android:id="@+id/txtQl_sinhvien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ SINH VIÊN"
+        android:textSize="25sp"
+        android:textColor="#FF4500"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtLop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lớp:"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <Spinner
+            android:id="@+id/spnMaLop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/bntThem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm mới"       
+        android:textSize="20sp"
+        android:background="#3CB371"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp" />
+
+    <ListView
+        android:id="@+id/lvDs_sinhvien"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" 
+        android:background="#aaffd4">
+    </ListView>
+    </LinearLayout>
+</LinearLayout>
+<!-- From: file:/D:/QuanLySinhVien/app/src/main/res/layout/activity_student_management.xml -->

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\QuanLySinhVien\Parse-1.11.0\Parse-1.11.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="54a0d027ea5d5b0dae92833991bb68f9b3da6ca6">
+        <dex dex="D:\QuanLySinhVien\app\build\intermediates\pre-dexed\debug\Parse-1.11.0-2ed8d5c1cac3385225cd3b641a4773a21ae48e05.jar" />
+    </item>
+    <item
+        jar="C:\Users\GOKU_THAM\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.3.0\8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c\bolts-tasks-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c">
+        <dex dex="D:\QuanLySinhVien\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.3.0-5d358376a19dfded70635b1b756e946cac82cabc.jar" />
+    </item>
+    <item
+        jar="C:\Users\GOKU_THAM\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\QuanLySinhVien\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-ef2f7af550dbfa0c4ff5e3efb88d00dc97b84997.jar" />
+    </item>
+    <item
+        jar="C:\Users\GOKU_THAM\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.3.0\bc535105332645408ef5f1380215cc954b842178\bolts-applinks-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="bc535105332645408ef5f1380215cc954b842178">
+        <dex dex="D:\QuanLySinhVien\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.3.0-5a02aa13c6c413684978022c68576cc2ff097ca4.jar" />
+    </item>
+    <item
+        jar="D:\QuanLySinhVien\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="D:\QuanLySinhVien\app\build\intermediates\pre-dexed\debug\classes-4ebcea3a7bce85eeaf73a9c5a1475ed352b5f740.jar" />
+    </item>
+    <item
+        jar="C:\Users\GOKU_THAM\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.3.0\27cabf3558be23a89f054334dd92512645ad34d9\bolts-android-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="27cabf3558be23a89f054334dd92512645ad34d9">
+        <dex dex="D:\QuanLySinhVien\app\build\intermediates\pre-dexed\debug\bolts-android-1.3.0-d612653b2c15f6aa03959f5cb124851dac0fe5c0.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuanLySinhVien</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">settings</string>
+    <string name="QuanlySV">Quản lý sinh viên</string>
+    <string name="Timkiem">Tìm kiếm sinh viên</string>
+    <string name="title_activity_home">QuanLySinhVien</string>
+    <string name="title_activity_class_management">QuanLySinhVien</string>
+    <string name="title_activity_student_management">QuanLySinhVien</string>
+    <string name="title_activity_search">QuanLySinhVien</string>
+    <string name="title_activity_search_class">QuanLySinhVien</string>
+
+</resources>
